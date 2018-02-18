@@ -335,7 +335,7 @@
 
         <div class="container container-unloaded">
             <main class="main post-page">
-    <article class="article-entry">
+    <article class="article-entry" id= "articlemain">
         <script src="\assets\js\APlayer.min.js"> </script><blockquote>
 <p>现在已经是凌晨4点30分了….<br><img src="https://images.unsplash.com/photo-1495073613335-7af8e711f273?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=022166e998acc0dfe62fba6561b7e1ec&amp;auto=format&amp;fit=crop&amp;w=1050&amp;q=80" alt="Alt text" title="optional title"><br>图片来自互联网</p>
 </blockquote>
@@ -344,6 +344,10 @@
 <p>2018.2.17</p>
 
     </article >
+	<script>
+    var textnum=document.getElementById("articlemain").innerHTML;
+    alert("网页上面字数有:"+textnum.length);
+    </script>
     <!-- 前后页  -->
     <ul class="post-paginator">
         <li class="next">
